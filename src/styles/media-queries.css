@@ -1,0 +1,33 @@
+/* @media screen and (max-width: 1015px) {
+   .cards__conteiner__list{
+    grid-template-columns: 1fr 1fr;
+   }
+
+} */
+
+@media screen and (max-width: 767px) {
+    .cards__conteiner__list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Para telas entre 768px e 1014px (por exemplo, tablets em modo retrato) */
+@media screen and (min-width: 768px) and (max-width: 1014px) {
+    .cards__conteiner__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Para telas entre 1015px e 1439px (por exemplo, tablets em modo paisagem) */
+@media screen and (min-width: 1015px) and (max-width: 1439px) {
+    .cards__conteiner__list {
+        grid-template-columns: 1fr 1fr 1fr  1fr;
+    }
+}
+
+/* Para telas acima de 1440px (por exemplo, desktops) */
+@media screen and (min-width: 1440px) {
+    .cards__conteiner__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
